@@ -15,15 +15,11 @@ h2 {
 	text-align: center;
 }
 
-p {
+p, a {
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 15px;
 }
 
-a {
-	font-family: 'Noto Sans', sans-serif;
-	font-size: 20px;
-}
 
 
 ::placeholder {
@@ -72,7 +68,7 @@ a {
 
 /*INDEX*/
 
-.input {
+.input, .myInfo {
 	width: 400px;
 	padding: 10px;
 	position: absolute;
@@ -96,7 +92,7 @@ a {
 	text-align: center;
 }
 
-.output {
+.output, .myPhoto {
 	width: 400px;
 	padding: 10px;
 	position: absolute;
@@ -108,15 +104,23 @@ a {
 	text-align: center;
 }
 
-.previewImg, .display-frame, .outputPic{
+.display-frame, .outputPic{
     width: 350px;
 	padding: 10px;
 	left: 15px;
 	position: relative;
 }
 
+.previewImg{
+	max-height: 230px;
+	padding: 10px;
+	left: 15px;
+	position: relative;
+	margin: auto;
+	display: block;
+}
+
 .input input[type="file"] {
-	border: 0;
 	background: radial-gradient(circle, rgba(63, 94, 251, 0.5) 0%, rgba(252, 70, 107, 0.5) 95%);
 	display: block;
 	margin: 20px auto;
@@ -172,3 +176,8 @@ a {
   cursor: pointer;
 }
 
+.myPic {
+	max-width: 350px;
+	padding: 10px;
+	position: relative;
+}
