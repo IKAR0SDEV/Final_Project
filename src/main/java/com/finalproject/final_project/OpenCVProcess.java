@@ -88,8 +88,8 @@ public class OpenCVProcess {
 
     public static void main(String[] args) throws Exception {
         //Variables
-        int lineThickness = 23;
-        int blurSize = 17;
+        int lineThickness = 25;
+        int blurSize = 21;
         int pixelSize = 12;
 
         //Time stamp
